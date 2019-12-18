@@ -121,7 +121,7 @@ class Story:
         FNULL = open(os.devnull, "w")
         p = Popen(
             [
-                "gsutil",
+               # "gsutil",
                 "cp",
                 os.path.join(save_path, file_name),
                 "gs://aidungeonstories",
